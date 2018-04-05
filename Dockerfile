@@ -42,7 +42,6 @@ RUN apk add --update --no-cache \
     libtheora-dev \
     libvpx-dev \
     # build and install ffmpeg
-    && FFMPEG_VER=3.2.1 \
     && curl -s http://ffmpeg.org/releases/ffmpeg-${FFMPEG_VERSION}.tar.gz | tar zxvf - -C . \
     && cd ffmpeg-${FFMPEG_VERSION} \
     && ./configure \
