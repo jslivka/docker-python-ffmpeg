@@ -4,7 +4,7 @@ FROM python:3.6.5-alpine
 #
 # A Docker image for running Python and FFMPEG code
 # 
-# Image based on Alpine Linux 3.6.5
+# Image based on Alpine Linux
 #
 #   with
 #     - Python 3.6.5
